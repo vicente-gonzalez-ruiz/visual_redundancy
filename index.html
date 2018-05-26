@@ -11775,20 +11775,13 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-compression-insights">Data compression insights<a class="anchor-link" href="#Data-compression-insights">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Redundancy-in-signals">Redundancy in signals<a class="anchor-link" href="#Redundancy-in-signals">&#182;</a></h3><p>In general, signals has three types of redundancy:</p>
+<h1 id="Redundancy-in-signals">Redundancy in signals<a class="anchor-link" href="#Redundancy-in-signals">&#182;</a></h1><p>In general, signals has three types of redundancy:</p>
 <ol>
 <li><p><strong>Spatial/temporal redundancy</strong>: Produced by similarities between
 adjacent (in 2D and 3D) samples. It can be removed using
 spatial/temporal models of the signal, generating <a href="https://en.wikipedia.org/wiki/Lossless_compression"><em>lossless
 codecs</em></a>. These codecs are known as lossless <em>audio</em>, <em>image</em>, and <em>video</em> codecs.</p>
+<p><img src="data/correlacion_lena.png"></p>
 </li>
 <li><p><strong>Statistical redundancy</strong>: Spatial/temporal redundancy generates <em>probabilistic relationships</em> among samples. Statistical redundancy can be removed by using
 probabilistic models, producing also <em>lossless codecs</em>. These
@@ -11799,22 +11792,6 @@ signals carry can not be perceived by humans. <a href="https://en.wikipedia.org/
 this kind of pseudo-redundancy, basically, by means of <a href="https://en.wikipedia.org/wiki/Quantization_(signal_processing">quantization</a>. Lossy codecs removes irrelevancy based on some perceptual criteria.</p>
 </li>
 </ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Some-interesting-compression-insights">Some interesting compression insights<a class="anchor-link" href="#Some-interesting-compression-insights">&#182;</a></h3><ul>
-<li>Lossless compressors are <a href="https://en.wikipedia.org/wiki/Bijection">bijective functions</a> which find a different output for each possible input. For this reason, text compressors are lossless by definition.</li>
-</ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bijection.svg/200px-Bijection.svg.png" width="200"></p>
-<ul>
-<li>Lossy compressors are <a href="https://en.wikipedia.org/wiki/Surjective_function">surjective functions</a> and therefore, two or more inputs can produce the same output. There are lossless audio, image, and video compressors, but most of them are lossy (although some of them can be lossless if quantization is not used).</li>
-</ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Surjection.svg/220px-Surjection.svg.png" width="200"></p>
 
 </div>
 </div>
