@@ -1,5 +1,5 @@
-# signal_redundancies
+# Image redundancies
 
-Sources of redundancy in signals (audio/image(video).
+Sources of redundancy in image (and video) signals.
 
-[Click me](https://cdn.rawgit.com/vicente-gonzalez-ruiz/signal_redundancies/master/index.html).
+[Click me](https://vicente-gonzalez-ruiz.github.io/image_redundancies/).
