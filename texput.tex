@@ -1,0 +1,35 @@
+% Poner en perception (sonido, luz). ??
+
+\title{Redundancy in multimedia}
+\author{Vicente González Ruiz}
+\maketitle
+
+\section{Statistical}
+Statistical redundancy is present in all those sequences of symbols
+where we can infeer a probability of ocurrence of a symbol
+taking into consideration the rest of symbols of a
+sequence. Statistical redudancy can be found in text, audio, image and
+video, among other types of signals.
+
+Statistical redundancy can be removed by text compressors.
+
+\section{Temporal}
+Temporal redundancy is shown by sequences of samples when those
+samples are similar in value and when paterns of samples tend to
+repeat. Temporal redundancy is found in all those time-dependant
+signals, such as audio and video, among others.
+
+Temporal redundancy can be removed by most audio and video codecs.
+
+\section{Spatial (2D)}
+Spatial redundancy is present basically in images, because pixels tend
+to be similar to their neighbors or tend to repeat textures. See
+Fig~\ref{fig:correlacion_lena}.
+
+\begin{figure}
+  \pngfig{graphics/correlacion_lena}{8cm}{800} %
+  \caption{Spatial redundancy in images.}
+  \label{fig:correlacion_lena}
+\end{figure}
+
+%\bibliography{video-compression}

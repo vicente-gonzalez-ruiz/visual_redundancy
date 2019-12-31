@@ -1,5 +1,4 @@
-include $(HOME)/Makefile_templates/fig2pdf/Makefile
-include $(HOME)/Makefile_templates/pdf2png/Makefile
+include $(HOME)/Makefile_templates/Makefile
 
 lena.png:
 	wget http://www.hpca.ual.es/~vruiz/images/lena.png
