@@ -26,6 +26,8 @@ signals, such as
 
 Temporal redundancy can be removed by most audio and video codecs.
 
+Most video codecs use motion compensation to remove temporal redundancy.
+
 \section{Spatial (2D)}
 \href{https://robbfoxx.wordpress.com/2015/07/12/discussion-6-2-1-what-is-redundancy-temporal-redundancy-and-spatial-redundancy/}{Spatial
   redundancy} is present basically in images, because pixels tend to
@@ -37,5 +39,7 @@ Fig~\ref{fig:correlacion_lena}.
   \caption{Spatial redundancy in images.}
   \label{fig:correlacion_lena}
 \end{figure}
+
+Humans are more sensitive to low-frequency image data than high-frequency data. In addition, luminance information is more important than chrominance information~\cite{kondoz2009visual}.
 
 %\bibliography{video-compression}
