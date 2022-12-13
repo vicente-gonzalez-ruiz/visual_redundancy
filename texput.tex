@@ -50,6 +50,22 @@ chrominance) is exploited by most color models used in image and video
 compression, such as $\text{YCrCb}$ and $\text{YCoCg}$. This can be
 see in the Fig.~\ref{fig:san-diego_chroma_subsampled}.
 
+\section{Chroma redundancy}
+
+Humans do not perceive detail in the chrominance as well as in they
+does in the
+luminance.~\cite{vruiz__visual_redundancy,burger2016digital}. Consecuently,
+the
+\href{https://en.wikipedia.org/wiki/Sampling_(signal_processing)}{sampling
+  rate} used in the chrominance can be generally reduced to 1/4 of the
+used for the luminance without a noticeable distortion (see
+Fig.~\ref{fig:san-diego_chroma_subsampled}). This
+\href{https://en.wikipedia.org/wiki/Bandwidth_(computing)}{fact is
+  used when compressing} digital still images and is one of the reason
+why, for example, the \href{https://en.wikipedia.org/wiki/JPEG}{JPEG}
+image compressor converts $\text{RGB}$ images to the $\text{YCrCb}$
+color domain~\cite{vruiz__YCrCb}.
+
 \section{Spatial (2D)}
 \href{https://robbfoxx.wordpress.com/2015/07/12/discussion-6-2-1-what-is-redundancy-temporal-redundancy-and-spatial-redundancy/}{Spatial
   redundancy} is present basically in images, because pixels tend to
