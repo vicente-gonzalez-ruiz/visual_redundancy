@@ -1,5 +1,1 @@
-# Image redundancies
-
-Sources of redundancy in image (and video) signals.
-
-[Click me](https://vicente-gonzalez-ruiz.github.io/visual_redundancy/).
+# [Visual Redundancy](https://vicente-gonzalez-ruiz.github.io/visual_redundancy/).
